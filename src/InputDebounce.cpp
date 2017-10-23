@@ -1,5 +1,9 @@
 /*
-Debounces the input pin
+This arduino library is for debouncing an input pin.
+Why I wrote my own lib instad of using one of the readily available ones like
+"bounce"? Well, practice my friend ;) i'm just learning C++ and riting your own
+code makes you better, faster and more knowledgeable! So if you find errors:
+please report them so i can learn even more!
 */
 
 #include <InputDebounce.h>

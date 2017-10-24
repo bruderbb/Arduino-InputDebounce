@@ -12,7 +12,7 @@ Debounces the input pin
 
 
   #ifndef INPUTDEBOUNCE_DEBUG
-    // uncomment the following line to enable debug messages
+    // uncomment the following line to enable debug messages:
     //#define INPUTDEBOUNCE_DEBUG
   #endif
 

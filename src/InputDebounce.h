@@ -6,7 +6,7 @@ Debounces the input pin
   #define InputDebounce_H
   #if ARDUINO >= 100
     #include <Arduino.h>
-    #else
+  #else
     #include <WProgram.h>
   #endif // end of if ARDUINO
 

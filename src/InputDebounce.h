@@ -3,18 +3,13 @@ Debounces the input pin
 
 *******************************************************************************/
 #ifndef InputDebounce_H
-  #define InputDebounce_H
-  #if ARDUINO >= 100
-    #include <Arduino.h>
-  #else
-    #include <WProgram.h>
-  #endif // end of if ARDUINO
+#define InputDebounce_H
 
-
-  #ifndef INPUTDEBOUNCE_DEBUG
-    // uncomment the following line to enable debug messages:
-    //#define INPUTDEBOUNCE_DEBUG
-  #endif
+#include <Arduino.h>
+#ifndef INPUTDEBOUNCE_DEBUG
+// uncomment the following line to enable debug messages:
+//#define INPUTDEBOUNCE_DEBUG
+#endif
 
   class InputDebounce
   {
